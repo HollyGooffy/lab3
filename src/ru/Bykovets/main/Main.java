@@ -258,6 +258,7 @@ public class Main {
 
 
         /* Задание 7.3 */
+        System.out.println("Задание 7.3");
         if (args.length != 2) {
             System.out.println("Пожалуйста, введите два числа в качестве аргументов командной строки.");
             return;
@@ -280,6 +281,6 @@ public class Main {
         return Math.pow(x, y);
     }
 
-    }
+}
 
 
