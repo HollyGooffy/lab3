@@ -5,7 +5,8 @@ public class BiCityManager extends CityManager {
 
     @Override
     public City findCityByName(String name) {
-        for (City city : cities) {
+        for (int i = 0; i < cities.size(); i++) {
+            City city = cities.get(i);
             if (city.getName().equals(name)) {
                 return city;
             }
